@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+<!-- Boostrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-- ------------- -->
+
+</head>
+<body>
+
+<br>
+
+<h1>Tarea 1 - Computo geometrico</h1>
+
+<button onclick="ejecutarJarvis();" type="button" class="btn btn-primary">Ejecutar Jarvis</button>
+
+<button onclick="dibujar();" type="button" class="btn btn-secondary">Dibuja Pasos</button>
+
+<button onclick="borrarConvex();" type="button" class="btn btn-warning">Limpiar Canvas</button>
+
+<div id="contenedor">
+    <canvas width="1000" height="1000" id="canvasHTML"
+        style=""
+    >
+        Your browser doesnt support canvas!
+    </canvas>
+</div>
+
+
+<script src="js/mainJS.js"></script>
+<script src="js/dibujarConvex.js"></script>
+
+</body>
+</html>
